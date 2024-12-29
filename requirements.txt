@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+pandas
+vaderSentiment
+python-multipart
+authlib

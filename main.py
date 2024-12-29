@@ -6,7 +6,7 @@ import pandas as pd
 app = FastAPI()
 
 # Authentication setup
-API_KEY = "mysecureapikey"
+API_KEY = "HRKU-e20e701b-ef89-43ca-851f-a500a4a1e97f"
 api_key_header = APIKeyHeader(name="Authorization")
 
 def verify_api_key(key: str = Depends(api_key_header)):

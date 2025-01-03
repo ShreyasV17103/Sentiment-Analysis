@@ -6,7 +6,7 @@ import pandas as pd
 app = FastAPI()
 
 # Authentication setup
-API_KEY = ""
+API_KEY = "//enterapi//"
 api_key_header = APIKeyHeader(name="Authorization")
 
 def verify_api_key(key: str = Depends(api_key_header)):
